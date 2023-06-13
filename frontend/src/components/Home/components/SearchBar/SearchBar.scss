@@ -1,0 +1,33 @@
+
+.search-bar {
+  padding-top: 52px;
+  display: inline-flex;
+  gap: 12px;
+
+  > * {
+    height: 44px;
+  }
+
+  .search-input {
+    border-bottom: 1px solid #CCCFD6; // hover state?
+    width: 661px;
+  }
+
+  .search-cta {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+    background: #2D6FF6;
+    width: 176px;
+    border-radius: 30px;
+    font-weight: 500;
+
+    &:hover {
+      background: #0949CC;
+    }
+  }
+}

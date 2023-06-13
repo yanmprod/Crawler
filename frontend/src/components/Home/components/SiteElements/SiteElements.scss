@@ -1,0 +1,15 @@
+
+.site-elements {
+  display: inline-flex;
+  padding-top: 5px; //supposed to be 8px but 5px seems more like the design
+  align-items: center;
+  color: #667085;
+  gap: 8px;
+  padding-bottom: 15px; //also adjusted
+
+  .site-element {
+    display: flex;
+    gap: 3px;
+    cursor: pointer;
+  }
+}

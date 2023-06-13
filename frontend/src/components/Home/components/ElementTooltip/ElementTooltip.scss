@@ -1,0 +1,66 @@
+.element-tooltip {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  width: 251px;
+  background-color: white;
+
+  .header {
+    background-color: #E3E5E9 !important;
+    display: flex;
+    height: 41px;
+    width: 100%;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    font-weight: 600; //design says 700 but it looks way heavier
+    color: black;
+  }
+
+  .element-amount {
+    padding-left: 20px;
+    font-size: 14px;
+
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: black;
+
+    .site-element {
+      font-weight: 300;
+      gap: 3px;
+    }
+  }
+
+  .element-list {
+    height: 112px;
+    padding-left: 20px;
+    overflow: auto;
+    li {
+      color: #667085;
+      padding: 7.5px 0 !important;
+      font-size: 14px;
+    }
+  }
+
+}
+
+.MuiTooltip-popperArrow[x-placement*="bottom"] .MuiTooltip-arrow {
+  color: #E3E5E9;
+}
+
+.MuiTooltip-tooltip {
+  background-color: #E3E5E9 !important;
+  padding: 0 !important;
+}
+
+.MuiDivider-inset {
+  margin-left: 20px !important;
+}
+
+// .MuiListItem-gutters {
+//   padding: 0 !important;
+// }
